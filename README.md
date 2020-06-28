@@ -1,4 +1,5 @@
 # react-native-beacons-manager
+IBeacon support for react native
 
 # author : daveno@naver.com
 
@@ -6,5 +7,5 @@
 npm install git://github.com/smartfit3274/react-native-beacons-manager.git
 
 ## clone from
-react-native-beacons-manager 1.7.0 >>> ios
-@nois/react-native-beacons-manager >>> android
+ios module forked from react-native-beacons-manager 1.7.0
+android module forked from @nois/react-native-beacons-manager
