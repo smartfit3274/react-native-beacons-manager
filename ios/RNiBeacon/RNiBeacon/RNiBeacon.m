@@ -275,5 +275,9 @@ RCT_EXPORT_METHOD(shouldDropEmptyRanges:(BOOL)drop)
   [self.bridge.eventDispatcher sendDeviceEventWithName:@"regionDidExit" body:event];
 }
 
++ (BOOL)requiresMainQueueSetup
+{
+    return YES;
+}
 
 @end
